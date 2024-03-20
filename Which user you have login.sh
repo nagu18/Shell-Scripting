@@ -1,0 +1,1 @@
+who | grep nagendar > /dev/null 2>&1 && write nagendar < /Users/nagendar/Desktop/Shell-Scripting/message.txt
