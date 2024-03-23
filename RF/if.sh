@@ -1,8 +1,5 @@
-#!/bin/bash
-filename="ki2004.txt"
-
-if [ -n "$filename" ]; then
-    echo "nagu"
+if [ -e "/Users/nagendar/Desktop/Shell-Scripting/RF/nagu.txt" ]; then
+    echo "File exists."
 else
-    echo "konda"
+    echo "File does not exist."
 fi
