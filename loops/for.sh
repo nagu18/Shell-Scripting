@@ -1,5 +1,5 @@
-#!bin/bash
-for num in {10..1} 
+#!/bin/bash
+for num in {10..100} 
 do 
 	echo "$num"
 done
